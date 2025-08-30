@@ -1,4 +1,4 @@
-import "../styles/globals.css";
+import "../globals.css";
 import { useState, useEffect } from "react";
 import { PDFDocument, rgb, StandardFonts } from "pdf-lib";
 
