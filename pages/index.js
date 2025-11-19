@@ -1,12 +1,7 @@
-import "../styles/globals.css";
 import { useState, useEffect } from "react";
 import { PDFDocument, rgb, StandardFonts } from "pdf-lib";
 
-export default function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />;
-}
-
-export function App() {
+export default function Home() {
   const [screen, setScreen] = useState("welcome");
 
   useEffect(() => {
